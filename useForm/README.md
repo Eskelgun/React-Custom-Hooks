@@ -8,4 +8,4 @@ const initialForm = {
     edad: 22
 }
 
-const [state,inputChange, reset ] = useForm(initialForm)
+const [formValues,handleInputChange, reset ] = useForm(initialForm)
